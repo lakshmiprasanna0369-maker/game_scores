@@ -1,0 +1,11 @@
+name = input("Enter player's name:")
+games = int(input("Enter number of games played: "))
+score = int(input("Enter total score: "))
+average = score / games
+print("Player:", name)
+print()
+print("Games Played:", games)
+print()
+print("Total Score:", score)
+print()
+print("Average Score:", average)
